@@ -1,0 +1,41 @@
+footer {
+    background-color: $color-dark-blue;
+    height: 573px;
+    h3, p, li {
+        color: $color-white;
+    }
+    p {
+        font-size: 13px;
+    }
+    ul {
+        padding-left: 0;
+    }
+    li {
+        font-size: 13px;
+        list-style-type: none;   
+    }
+    h3 {
+        padding-top: 90px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+    input {
+        width: calc(100% - 80px);
+        height: 55px;
+        border: none;
+        border-radius: 3px 0 0 3px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+    .submit {
+        width: 70px;
+        height: 55px;
+        border: none;
+        border-radius: 0 3px 3px 0;
+        padding-top: 10px;
+        margin: 0;
+    }
+    .spam {
+        color: $color-blue-text;
+    }
+}

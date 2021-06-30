@@ -1,0 +1,171 @@
+.section_one {
+    height: 946px;
+    background: url("images/Header.png") no-repeat;
+    background-size: cover;
+    .logo {
+        height: 33px;
+        margin-top: 30px;
+    }
+    .site-title {
+        @media (max-width: 1250px) {
+            padding-top: 350px;
+        }
+        &_subheading {
+            font-size: 13px;
+            color: $color-white;
+        }
+    }
+    .perfect {
+        text-transform: uppercase;
+        font-size: 12px;
+        color: $color-white;
+        font-weight: $font-weight-semi-bold;
+        transform-origin: 350px 240px;
+        transform: rotate(-90deg);
+        span {
+            font-weight: $font-weight-light;
+        }
+        @media (max-width: 1430px) {
+            display: none;
+        }
+    }
+    .iphone {
+        height: 862px;
+        @media (min-width: 1250px) {
+            position: relative;
+            top: 150px;
+            right: 100px;
+        } 
+        @media (max-width: 1250px) {
+            display: none;
+        }
+    }
+}
+
+.description {
+    height: 538px;
+    .container{
+        height: 538px;
+    }
+    h2 {
+        padding-bottom: 20px;
+    }
+    .paragraph-right {
+        padding-top: 127px;
+    }
+}
+
+.featured-content {
+    h2, p, a {
+        color: $color-white;
+        padding: 0 40px 14px 40px;
+    }
+    .design-quality, .built-to-last, .our-clients, .sign-up, .perfect-pictures {
+        height: 275px;
+        padding-top: 50px;
+    }
+    .design-quality {
+        background-color: $color-pink;
+    }
+    .built-to-last {
+        background-color: $color-purple;
+    }
+    .our-clients {
+        background: url('images/photo2.png');
+    }
+    .sign-up {
+        background: url('images/photo1.png');
+    }
+    .perfect-pictures {
+        background-color: $color-green;
+    }
+}
+
+.details {
+    height: 524px;
+    .takpap {
+        transform-origin: 130px 20px;
+        @media (max-width: 1430px) {
+            display: none;
+        }
+    }
+}
+
+.big_picture {
+    height: 873px;
+    background: url("images/Car.png") no-repeat;
+    background-size: cover;
+    .container {
+        height: 873px;
+        padding-bottom: 135px;  
+    }
+    p, a {
+        color: $color-white;
+    }
+    h1 {
+        hyphens: manual;  
+    }
+}
+
+.reasons {
+    height: 553px;  
+    background-color: $color-green;
+    .takpap {
+        transform-origin: 185px 75px;
+        @media (max-width: 1430px) {
+            display: none;
+        }
+    }
+    .container{
+        height: 553px;
+    }
+    h2, h3, p {
+        color: $color-white;
+    }
+    h2 {
+        font-size: 35px;
+        padding-bottom: 40px;
+        padding-top: 125px;
+    }
+}
+
+.prices {
+    height: 665px;
+    background-color: $color-pale-blue;
+    .takpap {
+        transform-origin: 175px 65px;
+        @media (max-width: 1430px) {
+            display: none;
+        }
+    }
+    .container, .row {
+        height: 565px;
+        padding-bottom: 50px;
+    }
+    .legacy {
+        background-color: $color-pale-grey;
+    }
+    .popular {
+        background-color: $color-violet;
+    }
+    h2, p {
+        padding-bottom: 15px;
+    }
+    .team-plan {
+        background-color: $color-white;
+        box-shadow: 0 0 20px #e1e1e1;
+        padding: 50px;
+    }
+    .price-button {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 13px;
+        font-weight: $font-weight-bold;
+    }
+    img {
+        height: 25px;
+        margin-right: 20px;
+        color: $color-pale-grey-icons;
+    }
+}
